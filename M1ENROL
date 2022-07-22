@@ -1,0 +1,21 @@
+//START46 | MATH1 Enrolment
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc = new Scanner(System.in);
+		int i = sc.nextInt();
+		for (int j=0; j<i; j++) {
+		    int a = sc.nextInt();
+		    int b = sc.nextInt();
+		    
+		    if (b>a)
+	                System.out.println(b-a);
+	      else 
+	                System.out.println("0");
+		}
+	}
+}
