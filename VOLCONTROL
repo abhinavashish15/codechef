@@ -1,0 +1,19 @@
+//Start32 | Volume Control
+import java.util.Scanner;
+class volume
+{
+    public static void main (String[] args) {
+        int count1=0;
+        Scanner sc=new Scanner(System.in);
+        int count=sc.nextInt();
+        for(int i=0;i<count;i++)
+        {
+            int initial_vol=sc.nextInt();
+            int final_vol=sc.nextInt();
+            int j=Math.abs(final_vol-initial_vol);
+            System.out.println(j);
+        }
+        
+       
+    }
+}
