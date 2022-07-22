@@ -1,0 +1,20 @@
+// START48 | Fill Candies
+import java.util.Scanner;
+class candy
+{
+    public static void main (String[] args) {
+        Scanner sc= new Scanner(System.in);
+        int count = sc.nextInt();
+        for(int i=0;i<count;i++)
+        {
+            int n=sc.nextInt();
+            int k=sc.nextInt();
+            int m=sc.nextInt();
+            int s=n%(k*m);
+            if(s==0)
+            System.out.println(n/(k*m));
+            else
+            System.out.println((n/(k*m))+1);
+        }
+    }
+}
