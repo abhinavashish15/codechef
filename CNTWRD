@@ -1,0 +1,15 @@
+//START46D | Counting Words
+import java.util.*;
+class solution1
+{
+   public static void main(String[] args) {
+       Scanner sc= new Scanner(System.in);
+       int n= sc.nextInt();
+       for(int i=1;i<=n;i++)
+       {
+           int m= sc.nextInt();
+           int t= sc.nextInt();
+       System.out.println(m*t);
+       }     
+}
+}
